@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Enmadera</title>
+</head>
+<body>
+    <header>
+        <nav class="navegacion-principal">
+            <a href="#">Enmadera</a>
+            <a href="#">Catalogo</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+    <section class="fondo-presentacion">
+        <div class="presentacion">
+            <h1>Carpintería Muebles a Medida</h1>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E69A8DFF" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="11" r="3" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+                <p>Montevideo, Uruguay</p>
+            </div>
+            <button class="presentacion_boton">Contacto</button>
+        </div>
+    </section>
+    <main class="main">
+        <h2>Nuestros Servicios</h2>
+        <section class="servicios">
+            <div class="servicio">
+                <h3>Diseño</h3>
+                <div class="servicio-icono">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-geometry" width="76" height="76" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E69A8DFF" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M7 21l4 -12m2 0l1.48 4.439m.949 2.847l1.571 4.714" />
+                        <circle cx="12" cy="7" r="2" />
+                        <path d="M4 12c1.526 2.955 4.588 5 8 5c3.41 0 6.473 -2.048 8 -5" />
+                        <path d="M12 5v-2" />
+                    </svg>
+                </div>
+                <p>Nullam mollis sodales tortor, vel tempus nulla auctor vitae. Nam odio massa, cursus ut sagittis at.</p>
+            </div>
+            <div class="servicio">
+                <h3>Construcción</h3>
+                <div class="servicio-icono">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools" width="72" height="72" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E69A8DFF" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 21h4l13 -13a1.5 1.5 0 0 0 -4 -4l-13 13v4" />
+                        <line x1="14.5" y1="5.5" x2="18.5" y2="9.5" />
+                        <polyline points="12 8 7 3 3 7 8 12" />
+                        <line x1="7" y1="8" x2="5.5" y2="9.5" />
+                        <polyline points="16 12 21 17 17 21 12 16" />
+                        <line x1="16" y1="17" x2="14.5" y2="18.5" />
+                    </svg>
+                </div>
+                <p>Suspendisse placerat lectus sem, sed tempus ante pulvinar mollis. Etiam tincidunt, purus et interdum iaculis.</p>
+            </div>
+            <div class="servicio">
+                <h3>Envío</h3>
+                <div class="servicio-icono">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-truck" width="76" height="76" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E69A8DFF" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="7" cy="17" r="2" />
+                        <circle cx="17" cy="17" r="2" />
+                        <path d="M5 17h-2v-11a1 1 0 0 1 1 -1h9v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" />
+                    </svg>
+                </div>
+                <p>Vestibulum at erat eget tortor ullamcorper sagittis vel et libero. Nam ac turpis eget odio rhoncus.</p>
+            </div>
+        </section>
+        <h2 style="margin-bottom: 3rem">Contacto</h2>
+        <section class="formulario">
+            <form action="">
+                <fieldset class="formulario-fieldset">
+                    <legend>Contáctenos rellenando el formulario</legend>
+                    <div class="formulario-grilla">
+                        <div class="campos">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" name="nombre">
+                        </div>
+                        <div class="campos">
+                            <label for="telefono">Teléfono:</label>
+                            <input type="tel" name="telefono">
+                        </div>
+                    </div>
+                    <div class="campos">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea name="" id="" cols="10" rows="4"></textarea>
+                    </div>
+                    
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Todos los derechos reservados. Enmaderas &copy</p>
+    </footer>
+</body>
+</html>
